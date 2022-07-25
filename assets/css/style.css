@@ -655,6 +655,60 @@ section .container {
   color: #D59534;
 }
 
+.contact .form {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.contact .form input,
+.contact .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 0;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.contact .form input:focus,
+.contact .form textarea:focus {
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.contact .form input::-moz-placeholder,
+.contact .form textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
+.contact .form input::placeholder,
+.contact .form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
+.contact .form input {
+  padding: 10px 15px;
+}
+
+.contact .form textarea {
+  padding: 12px 15px;
+}
+
+#my-form-button {
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+#my-form-button:hover {
+  background: #15bb62;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
