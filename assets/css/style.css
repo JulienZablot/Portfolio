@@ -676,6 +676,8 @@ section .container {
 @media (max-width: 972px) {
   .services .card {
     padding: 10px;
+    margin-left: 0px; 
+    margin-right: 0px;
   }
 }
 .services .icon-box .icon {
