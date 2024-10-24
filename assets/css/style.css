@@ -84,7 +84,7 @@ h6 {
 }
 
 #header h2 {
-  font-size: 24px;
+  font-size: 28px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -115,8 +115,8 @@ h6 {
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 
 #header .social-links a:hover {
@@ -129,7 +129,7 @@ h6 {
   }
 
   #header h2 {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
   }
 
@@ -146,7 +146,7 @@ h6 {
 
 /* Header Top */
 #header.header-top {
-  height: 80px;
+  height: 85px;
   position: fixed;
   left: 0;
   top: 0;
@@ -164,6 +164,10 @@ h6 {
   font-size: 36px;
 }
 
+#header.header-top #main-title {
+  display:none;
+}
+
 #header.header-top .container {
   display: flex;
   align-items: center;
@@ -171,6 +175,12 @@ h6 {
 
 #header.header-top .navbar {
   margin: 0;
+}
+
+@media (max-width: 992px) {
+  #header.header-top {
+    height: 80px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -199,17 +209,17 @@ h6 {
 }
 
 #navbar-logo {
-  height: 55px;
+  height: 95px;
 }
 
 @media (max-width: 992px) {
   #navbar-logo {
-    height: 45px;
+    height: 80px;
   }
 }
 @media (max-width: 768px) {
   #navbar-logo {
-    height: 35px;
+    height: 60px;
   }
 }
 
@@ -236,7 +246,7 @@ h6 {
   justify-content: space-between;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
@@ -615,8 +625,6 @@ section .container {
   border-left: solid 7px #D59534;
 }
 
-
-
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -631,6 +639,16 @@ section .container {
   font-size: 16px;
   background: rgba(255, 255, 255, 0.15);
   padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item #success {
+  font-size: 16px;
+  color:#2c2c2c;
+  background: #D59534;
+  padding: 2px 10px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
@@ -1150,8 +1168,3 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
-
-
-
-
-
